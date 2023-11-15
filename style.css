@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+  position: relative;
+  place-items: center;
+}
+
+.title {
+    position: relative;
+    top: 40px;
+  text-align: center;
+  margin-bottom:4rem;
+}
+.underline {
+  width: 5rem;
+
+  height: 0.4rem;
+  margin: 0 auto;
+
+  background-color: aquamarine;
+}
+
+.review_container {
+  height: 60vh;
+  width: 50%;
+  background-color: azure;
+  border-radius:5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: 250px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+.image_container{
+    margin-top: 0.5rem;
+    width: 200px;
+    height: 200px;
+    border: 2px solid aquamarine;
+    border-radius:200px;
+    background-color: aquamarine;
+    object-fit: cover;
+    -webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    -ms-border-radius:200px;
+    -o-border-radius:200px;
+}
+#man_img{position: relative;
+    left: 4px;
+    top:  3px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 0px solid aquamarine;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+}
+
+.text_container{
+    text-align: center;
+    margin: 1rem 0;
+    
+}
+#job{ 
+    margin-top:0.6rem ;
+    color: aquamarine;
+    text-shadow: -1px -1px  rgba(17, 18, 17, 0.706)
+    
+}
+#info{
+    margin-top: 0.7rem;
+}
+
+
+
+.btn{margin: 0 1rem;
+    padding: 0.2rem 1rem;
+    border: 1px solid rgb(90, 180, 150);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgb(225, 242, 236);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.328);
+}
+
+.random{
+position: absolute;
+
+    left: 450px;
+    bottom:100px;
+background-color: rgb(225, 242, 236);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.328);
+    padding: 0.3rem 1rem;
+    border: 1px solid rgb(90, 180, 150);;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
